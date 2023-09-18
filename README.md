@@ -67,5 +67,5 @@ Após criar e testar o código, crie um repositório remoto (GITHUB) e insira ca
 
 Nomeie os códigos para identificar cada um deles;
 
-PetShop: ![petshop](Etapa4-exercicioPetshop.txt)
+PetShop: ![Banco de dados PetShop](Etapa4-exercicioPetshop.txt)
 
