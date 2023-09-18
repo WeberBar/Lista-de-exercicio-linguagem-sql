@@ -74,3 +74,5 @@ Biblioteca: ![Banco de dados Biblioteca](Etapa4-exercicioBiblioteca.txt)
 Produtora de games: ![Banco de dados Produtora de games](Etapa4-ExercicioProdutoraDeGames.txt)
 
 Locadora: ![Banco de dados Locadora](Etapa4-exercicio_Locadora.txt)
+
+Supermercado: ![Banco de dados Supermercado](Etapa4-exercicioSupermercado.txt)
