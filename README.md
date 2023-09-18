@@ -44,7 +44,8 @@ Siga as seguintes instruções:
 
 Insira pelo menos 5 registros em cada tabela;
 
-Selecione os dados;
+Selecione os dados.
+
 Exercicio 1:
 
 ![Exercicio1](etapa3_exercicio1.png)
