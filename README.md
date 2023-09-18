@@ -32,3 +32,18 @@ Utilize os exemplos citados durante a aula e o conteúdo disponibilizado no mate
 
 Caso tenha dificuldades na utilização do LucindChat, está disponível o link da plataforma Miro, sendo similar a primeira opção dada durante as aulas.
 ![etapa2](etapa_2-1.png)
+
+## Etapa 3
+Faça o exercício disponibilizado na aula do dia 04/09/2023 (slide 18);
+
+Siga as seguintes instruções:
+
+1 — Crie um banco de dados para armazenar dados de alunos. Um aluno deve ter RA, nome, data de nascimento, endereço e e-mail;
+
+2 — Crie um banco de dados para armazenar dados de colaboradores de uma empresa. Um colaborador deve ter um código de identificação, nome, CPF, cargo e salário;
+
+Insira pelo menos 5 registros em cada tabela;
+
+Selecione os dados;
+exercicio 1:
+![Exercicio1](etapa3_exercicio1.png)
