@@ -50,3 +50,7 @@ exercicio 1:
 
 
 código: ![etapa3_exercicio1](Etapa3_exercicio1_banco_de_dados.txt)
+
+exercicio 2:
+
+código: ![etapa3_exercicio2](Etapa3_exercicio2_banco_de_dados.txt)
