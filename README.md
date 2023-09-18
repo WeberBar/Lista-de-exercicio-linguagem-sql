@@ -12,4 +12,4 @@ Um cliente deve informar seu nome, CPF, e-mail e telefone, além do nome, espéc
 2 - Em uma produtora de games, há desenvolvedores, que possuem um nome, CPF, data de nascimento.
 
 Cada projeto tem um nome, data de lançamento, gênero e faixa etária. Segundo o gerente de projetos, “cada desenvolvedor deve estar envolvido em um projeto”.
-![etapa1(etapa1-1.png)
+![etapa1(etapa1-1.png)]
