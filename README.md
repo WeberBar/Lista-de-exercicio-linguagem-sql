@@ -31,4 +31,4 @@ Conforme o material apresentado sobre atributos, refaça os MER criados para os 
 Utilize os exemplos citados durante a aula e o conteúdo disponibilizado no material;
 
 Caso tenha dificuldades na utilização do LucindChat, está disponível o link da plataforma Miro, sendo similar a primeira opção dada durante as aulas.
-![etapa2](etapa2-1.png)
+![etapa2](etapa_2-1.png)
