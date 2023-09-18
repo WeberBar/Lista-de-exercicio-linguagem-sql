@@ -1,0 +1,23 @@
+CREATE TABLE Cliente (
+  Nome VARCHAR(400),
+  Email VARCHAR(400),
+  Telefone INT,
+  Cpf VARCHAR(11)
+  );
+  
+  CREATE TABLE Pet(
+    DataDeNascimento DATE,
+    Nome VARCHAR(200),
+    Especie VARCHAR(200)
+    );
+    
+    INSERT INTO Cliente(Nome,Email,Telefone,Cpf) VALUES ("Fabiano Silva Barros", "Fabiano.silva@gmail.com", 15932932345, "01234524678");
+    INSERT INTO Cliente(Nome,Email,Telefone,Cpf) VALUES ("Vitor Weber Barbosa", "vitor.weber@gmail.com", 11989987987, "46545645676");
+    INSERT INTO Cliente(Nome,Email,Telefone,Cpf) VALUES ("Julia Vieira Oliveira", "julia.oliveira@gmail.com", 11950703137, "50041198050");
+    
+    INSERT INTO Pet( Nome, DataDeNascimento, Especie) VALUES("Bidu", "2012-12-20", "Pincsher");
+    INSERT INTO Pet( Nome, DataDeNascimento, Especie) VALUES("Rex", "2022-01-01", "Pitbull");
+    INSERT INTO Pet( Nome, DataDeNascimento, Especie) VALUES("Marmaduque", "2019-09-13", "Dogue Alemão");
+    
+    SELECT * FROM Cliente;
+    SELECT * FROM Pet;
