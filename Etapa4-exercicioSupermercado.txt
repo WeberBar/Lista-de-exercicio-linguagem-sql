@@ -1,0 +1,24 @@
+create table Produto(
+  Nome VARCHAR(100),
+  Preco DECIMAL(4.2),
+  Quantidade_no_estoque INT,
+  Marca VARCHAR(100)
+  );
+  
+ CREATE TABLE Marca(
+   Nome_da_marca VARCHAR(100),
+   SAC_da_marca VARCHAR(100),
+   Nacionalidade_da_marca VARCHAR(100)
+   ); 
+   
+   INSERT INTO Produto (nome, preco, quantidade_no_estoque, marca) VALUES("Garoto", 8.50, 20, "Nestle");
+INSERT INTO Produto (nome, preco, quantidade_no_estoque, marca) VALUES("Fanta laranja", 6.75, 80, "Coca-Cola");
+INSERT INTO Produto (nome, preco, quantidade_no_estoque, marca) VALUES("Yogurte Grego ", 7.25, 100, "Danone");
+
+insert into Marca (nome_da_marca, sac_da_marca, nacionalidade_da_marca) values("Nestle", "0800 770 1176", "Suíça");
+insert into Marca (nome_da_marca, sac_da_marca, nacionalidade_da_marca) values("Coca-Cola", "0800 727 1100", "Estados Unidos");
+insert into Marca (nome_da_marca, sac_da_marca, nacionalidade_da_marca) values("Danone", " 0800 701 7561", "Espanha");
+
+select * from Produto;
+select * from Marca;
+
