@@ -1,0 +1,23 @@
+CREATE TABLE Desenvolvedor (
+  Nome VARCHAR(400),
+  DataDeNascimento DATE,
+  Cpf VARCHAR(11)
+  );
+  
+  CREATE TABLE Projeto(
+    DataDeLancamento DATE,
+    Nome VARCHAR(200),
+    Genero VARCHAR(200),
+    FaixaEtaria INT
+    );
+    
+    INSERT INTO Desenvolvedor(Nome, DataDeNascimento, Cpf) values ("Vitor Hugo Weber Barbosa", "20/12/2004", "81433939096");
+    INSERT INTO Desenvolvedor(Nome, DataDeNascimento, Cpf) values ("Tiago Vertapen da Silva", "13/04/1998", "82689160013");
+    INSERT INTO Desenvolvedor(Nome, DataDeNascimento, Cpf) values ("João  Vitor da Silva", "19/01/2000", "05812640025");
+    
+    INSERT INTO Projeto(Nome, DataDeLancamento, Genero, FaixaEtaria) values ("God of war III Remastered", "17/07/2015", "Ação/Aventura", 18 );
+    INSERT INTO Projeto(Nome, DataDeLancamento, Genero, FaixaEtaria) values ("Grand Theft Auto V", "17/09/2013", "Tiro/Aventura/Ação", 18);
+    INSERT INTO Projeto(Nome, DataDeLancamento, Genero, FaixaEtaria) values ("DOOM Eternal", "20/03/2020", "Tiro/Aventura/Terror", 18 );
+    
+     SELECT * FROM Desenvolvedor;
+     SELECT * FROM Projeto;
