@@ -45,12 +45,14 @@ Siga as seguintes instruções:
 Insira pelo menos 5 registros em cada tabela;
 
 Selecione os dados;
-exercicio 1:
+Exercicio 1:
+
 ![Exercicio1](etapa3_exercicio1.png)
 
 
 código: ![etapa3_exercicio1](Etapa3_exercicio1_banco_de_dados.txt)
 
 exercicio 2:
+
 ![Exercicio2](etapa3_exercicio2.png)
 código: ![etapa3_exercicio2](Etapa3_exercicio2_banco_de_dados.txt)
