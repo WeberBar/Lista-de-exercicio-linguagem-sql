@@ -1,0 +1,15 @@
+CREATE TABLE Colaborador (
+  CodigoDeIdentificacao INT,
+  Nome VARCHAR(200),
+  CPF VARCHAR(20),
+  Cargo VARCHAR(200),
+  Salario DECIMAL(8,2)
+  );
+  
+  INSERT into Colaborador (CodigoDeIdentificacao, Nome, CPF, Cargo, Salario) VALUES (123210, "Julia Roberts", "22246159067", "Gerente RH", 9000.00);
+  INSERT into Colaborador (CodigoDeIdentificacao, Nome, CPF, Cargo, Salario) VALUES (156574, "Chris Evans", "67967648030", "Gerente TI", 11000.00);
+  INSERT into Colaborador (CodigoDeIdentificacao, Nome, CPF, Cargo, Salario) VALUES (102320, "Bruce Willians", "47553004014", "Auxiliar de Limpeza", 2200.00);
+  INSERT into Colaborador (CodigoDeIdentificacao, Nome, CPF, Cargo, Salario) VALUES (101410, "Justin Roberts", "66345739057", "Presidente", 23000.00);
+  INSERT into Colaborador (CodigoDeIdentificacao, Nome, CPF, Cargo, Salario) VALUES (112320, "Julia Castanhari", "04465677014", "Auxiliar de Limpeza", 2200.00);
+  
+  SELECT * from Colaborador;
