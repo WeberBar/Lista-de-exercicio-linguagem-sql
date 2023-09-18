@@ -1,0 +1,24 @@
+CREATE TABLE Autor (
+  Nome VARCHAR(400),
+  DataDeNascimento DATE,
+  Email VARCHAR(400),
+  Nacionalidade VARCHAR(400)
+  );
+  
+  CREATE TABLE Livro(
+    Titulo VARCHAR(200),
+    Acabamento VARCHAR(200),
+    Editora VARCHAR(200),
+    QuantidadeDePaginas INT
+    );
+    
+    INSERT INTO Autor(Nome, DataDeNascimento, Email, Nacionalidade) values ("Henrique Meo", "20-12-2004", "riquemel5716@uorak.com", "Europeu");
+    INSERT INTO Autor(Nome, DataDeNascimento, Email, Nacionalidade) values ("Jhon Green", "13-04-1998", "JhoGrenl@uorak.com", "norte-americano");
+    INSERT INTO Autor(Nome, DataDeNascimento, Email, Nacionalidade) values ("Mark Twain", "19-01-1985", "Twain@gmail.com", "Europeu");
+    
+    INSERT INTO Livro(Titulo, Acabamento, Editora, QuantidadeDePaginas) values ("Biblia Sagrada", "Capa Dura", "Canção Nova", 942 );
+    INSERT INTO Livro(Titulo, Acabamento, Editora, QuantidadeDePaginas) values ("A culpa é das estrelas", "Capa Mole", "Intrinseca", 176);
+    INSERT INTO Livro(Titulo, Acabamento, Editora, QuantidadeDePaginas) values ("O estranho misterioso", "Capa Mole", "New Are", 214 );
+    
+     SELECT * FROM Livro;
+     SELECT * FROM Autor
