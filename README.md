@@ -67,4 +67,5 @@ Após criar e testar o código, crie um repositório remoto (GITHUB) e insira ca
 
 Nomeie os códigos para identificar cada um deles;
 
-No readme.md do repositório, insira o enunciado da tarefa e os devidos MER da tarefa.
+PetShop: ![petshop](Etapa4-exercicioPetshop.txt)
+
