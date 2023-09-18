@@ -1,0 +1,23 @@
+CREATE table Automovel(
+  Placa VARCHAR(100),
+  Modelo VARCHAR(100),
+  Ano INT,
+  Montadora VARCHAR(100)
+  );
+  
+  CREATE TABLE Montadora(
+    Nome_da_montadora VARCHAR(100),
+    Site_montadora VARCHAR(150),
+    Logotipo_montadora VARCHAR(200)
+    );
+    
+    INSERT INTO Automovel (placa, modelo, ano, montadora) VALUES ("2AB45F", "Celta Life", 2010,"Chevrolet");
+INSERT INTO Automovel (placa, modelo, ano, montadora) VALUES ("4A3F1A", "JEEP Renegage", 2016,"JEEP");
+INSERT INTO Automovel (placa, modelo, ano, montadora) VALUES ("7GH34J", "Argo", 2023,"Fiat");
+
+insert into Montadora (nome_da_montadora, site_montadora, logotipo_montadora) values ("Chevrolet", "www.Chevrolet.com.br", "Logotipo_Chevrolet.png");
+insert into Montadora (nome_da_montadora, site_montadora, logotipo_montadora) values ("JEEP", "www.JEEP.com.br", "Logotipo_JEEP.png");
+insert into Montadora (nome_da_montadora, site_montadora, logotipo_montadora) values ("Fiat", "www.Fiat.com.br", "Logotipo_Fiat.png");
+
+SELECT * from Automovel;
+SELECT * from Montadora;
