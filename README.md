@@ -47,4 +47,6 @@ Insira pelo menos 5 registros em cada tabela;
 Selecione os dados;
 exercicio 1:
 ![Exercicio1](etapa3_exercicio1.png)
+
+
 código: ![Exercicio1_txt](Etapa3_exercicio1_banco de dados.txt)
