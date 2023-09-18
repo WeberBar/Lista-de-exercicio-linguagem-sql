@@ -57,3 +57,14 @@ exercicio 2:
 
 ![Exercicio2](etapa3_exercicio2.png)
 código: ![etapa3_exercicio2](Etapa3_exercicio2_banco_de_dados.txt)
+
+## Etapa 4
+Após a criação dos MER, crie as bases de dados de cada um dos exercícios dados na ETAPA 1;
+
+Insira os dados necessários para compor a base de dados criada;
+
+Após criar e testar o código, crie um repositório remoto (GITHUB) e insira cada um dos códigos;
+
+Nomeie os códigos para identificar cada um deles;
+
+No readme.md do repositório, insira o enunciado da tarefa e os devidos MER da tarefa.
