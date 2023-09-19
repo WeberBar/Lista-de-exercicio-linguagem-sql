@@ -1,0 +1,40 @@
+create table Filme (
+  Titulo VARCHAR(100),
+  Duracao VARCHAR(100),
+  Idioma_original VARCHAR(100),
+  Preco DECIMAL(3,2),
+  Elenco INT,
+  Diretor VARCHAR(100)
+  );
+  
+  CREATE TABLE Elenco (
+    id int,
+    Nome VARCHAR(200),
+    Nacionalidade VARCHAR(100),
+    Data_de_nascimento DATE
+    );
+    
+    CREATE TABLE Diretor(
+      Nome VARCHAR(200),
+      Filmes_produzidos INT,
+      Nacionalidade VARCHAR(100),
+      Data_de_nascimento DATE
+      );
+      
+        INSERT INTO Filme(titulo,duracao, preco, elenco, diretor, idioma_original) VALUES ("Até que a sorte nos separe", "1h 44m", 35.50, 1, "Roberto Santucci", "Portugues");
+  INSERT INTO Filme(titulo,duracao, preco, elenco, diretor, idioma_original) VALUES ("Rio", "1h 36m", 40.00, 2, "Carlos Saldanha", "Portugues");
+  
+  insert into Elenco(id, nome, nacionalidade, data_de_nascimento) values (1, "Leandro Hassum", "Brasileiro", "26-09-1973");
+  insert into Elenco(id, nome, nacionalidade, data_de_nascimento) values (1, "Danielle Winits", "Brasileira", "05-12-1973");
+  insert into Elenco(id, nome, nacionalidade, data_de_nascimento) values (2, "Jesse Eisenberg", "Norte-americano", "05-10-1983");
+  insert into Elenco(id, nome, nacionalidade, data_de_nascimento) values (2, "Anne Hathaway", "Norte-americano", "12-09-1982");
+
+  insert into Diretor(nome, filmes_produzidos, nacionalidade, data_de_nascimento) values("Roberto Santucci", 12, "Brasileiro", "28-09-1987");
+  insert into Diretor(nome, filmes_produzidos, nacionalidade, data_de_nascimento) values("Carlos Saldanha", 18, "Brasileiro", "21-05-1965");
+
+  SELECT * from Filme;
+select * from Elenco;
+SELECT * from Diretor;
+
+  
+      
